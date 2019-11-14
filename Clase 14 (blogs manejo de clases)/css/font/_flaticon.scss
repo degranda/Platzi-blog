@@ -1,0 +1,69 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/12/2018 09:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-facebook:before { content: "\f100"; }
+.flaticon-002-twitter:before { content: "\f101"; }
+.flaticon-003-whatsapp:before { content: "\f102"; }
+.flaticon-004-groupme:before { content: "\f103"; }
+.flaticon-005-kik:before { content: "\f104"; }
+.flaticon-006-skype:before { content: "\f105"; }
+.flaticon-007-periscope:before { content: "\f106"; }
+.flaticon-008-youtube:before { content: "\f107"; }
+.flaticon-009-itunes:before { content: "\f108"; }
+.flaticon-010-linkedin:before { content: "\f109"; }
+.flaticon-011-instagram:before { content: "\f10a"; }
+.flaticon-012-messenger:before { content: "\f10b"; }
+.flaticon-013-twitter-1:before { content: "\f10c"; }
+.flaticon-014-snapchat:before { content: "\f10d"; }
+.flaticon-015-reddit:before { content: "\f10e"; }
+    
+    $font-Flaticon-001-facebook: "\f100";
+    $font-Flaticon-002-twitter: "\f101";
+    $font-Flaticon-003-whatsapp: "\f102";
+    $font-Flaticon-004-groupme: "\f103";
+    $font-Flaticon-005-kik: "\f104";
+    $font-Flaticon-006-skype: "\f105";
+    $font-Flaticon-007-periscope: "\f106";
+    $font-Flaticon-008-youtube: "\f107";
+    $font-Flaticon-009-itunes: "\f108";
+    $font-Flaticon-010-linkedin: "\f109";
+    $font-Flaticon-011-instagram: "\f10a";
+    $font-Flaticon-012-messenger: "\f10b";
+    $font-Flaticon-013-twitter-1: "\f10c";
+    $font-Flaticon-014-snapchat: "\f10d";
+    $font-Flaticon-015-reddit: "\f10e";
