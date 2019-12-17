@@ -95,13 +95,11 @@ nav .profile-link a {
 .home-main-button {
     width: 110px;
     height: 50px;
-    background: #47cfac;
-    display: grid;  
-    align-items: center;
-}
-.home-main-button a {
+    background: #48cfad;
+    text-align: center;
     font-weight: 700;
     font-size: 18px;
+    line-height: 50px;
 }
 
 .blogs-main {
